@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width"/>
+		
+		<!-- Add to homescrern for Safari on IOS-->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="todos">
+		<link rel="apple-touch-icon" href="img/logo.jpg">
+		<!-- Add to homescrern for Safari on Android-->
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="theme-color" content="#2F3BA2">
+		<meta name="application-name" content="todos">
+		<link rel="icon" sizes="192*192" href="mp3.png">
+		
+		<title>音乐播放器</title>
+		
+		<link rel="stylesheet" href="css/mp3.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/mp3.js"></script>
+	</head>
+	<body>
+		<audio id="audio" src="song/旋转黑白.mp3" controls></audio>
+		
+		<div id="header">
+			<div class="fanhui">&lt;</div>
+			<div class="xinxi">· · ·</div>
+			<ul id="lists">
+			
+			</ul>
+		</div>
+		
+		<div id="now">
+			<span class="music_name"></span>
+			<span class="music_author"></span>
+		</div>
+		
+		<div id="tu">
+			<div class="pic"></div>
+		</div>
+		
+		<div id="sheng">
+			<div class="mute"><i class="iconfont">&#xe628;</i></div>
+				
+			<div class="volume">
+				<div class="v-i"></div>
+			</div>
+		</div>
+		
+		
+		<div id="div">		
+				<div class="current-time">0:00</div>
+				
+				<div class="progress">
+					<div class="p-i"></div>
+				</div>
+				
+				<div class="duration"></div>
+				
+				<div class="prev"><i class="iconfont">&#xe617;</i></div>
+				<div class="play iconfont">&#xe96b;</div>
+				<div class="next"><i class="iconfont">&#xe67f;</i></div>
+
+				<div class="xiai xia"><i class="iconfont">&#xe661;</i></div>
+				<div class="chong xia"><i class="iconfont">&#xe687;</i></div>
+				<div class="xiazai xia"><i class="iconfont">&#xe6b7;</i></div>
+				<div class="zhuanfa xia"><i class="iconfont">&#xe6c3;</i></div>
+				<!--<div class="liebiao xia"><i class="iconfont">&#xe6c3;</i></div>-->
+		</div>
+		
+	</body>
+</html>
