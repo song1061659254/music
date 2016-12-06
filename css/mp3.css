@@ -175,7 +175,7 @@ body {
   height: 100%;
   border-radius: 50%;
   box-sizing: border-box;
-  animation: move 3s  ease  infinite;
+  animation: move 3s  linear  infinite;
 }
 
 #sheng {
@@ -262,6 +262,7 @@ body {
   margin: 0.1rem 0;
   border: 1px solid #76756C;
   border-radius: 50%;
+  background: green;
 }
 
 #div .prev {
@@ -280,6 +281,7 @@ body {
   line-height: 1rem;
   border: 1px solid #76756C;
   border-radius: 50%;
+  background: blue;
 }
 
 #div .xia {
